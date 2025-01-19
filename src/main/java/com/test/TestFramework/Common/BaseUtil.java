@@ -24,7 +24,7 @@ public class BaseUtil {
 			if(driver == null) {
 				if (browserVal.equalsIgnoreCase("chrome")) {
 					System.setProperty("webdriver.chrome.driver",
-							"F:\\Swathi\\workspace2\\TestFramework\\src\\main\\java\\com\\test\\TestFramework\\Resources\\chromedriver.exe");
+							"src\\main\\java\\com\\test\\TestFramework\\Resources\\chromedriver.exe");
 					ChromeOptions options = new ChromeOptions();
 					driver = new ChromeDriver(options);
 				}
